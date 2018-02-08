@@ -1,0 +1,15 @@
+body {
+	background-color: #eeeeee;
+}
+h1 {
+	color: #ff0000;
+}
+p {
+	color: #ff0000;
+}
+
+/* Otra forma de acerlo, solo lo modificas una vez*/
+
+h1, p {
+	color: #ff0000;
+}
