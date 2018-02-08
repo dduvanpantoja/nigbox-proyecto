@@ -1,5 +1,8 @@
+/* Los elementos heredan del padre por eso
+	cambia el color a rojo*/
 body {
 	background-color: #eeeeee;
+	color: #ff0000;
 }
 h1 {
 	color: #ff0000;
