@@ -1,27 +1,17 @@
-/* Los elementos heredan del padre por eso
-	cambia el color a rojo*/
-body {
-	background-color: #eeeeee;
-	border: 5px solid #000;
-	color: #ff0000;
-	font-family: 'Roboto', sans-serif;
+p {
+	color: red;
 }
-h1 {
-	color: #ff0000;
+p{
+	color: blue;
 }
-
-/*
-Con la propiedad inherit le estoy diciendo que 
-herede las propiedades del elemento padre
-*/
-p, div {
-	color: #ff0000;
-	border: inherit;
+.info {
+	font-family: arial;
+	font-size: 25px;
+	color: red;
 }
-
-/* Otra forma de acerlo, solo lo modificas una vez 
-*/
-
-h1, p {
-	color: #0000ff;
+.info-contacto {
+	color: green;
+}
+.servicios {
+	color: purple;
 }
